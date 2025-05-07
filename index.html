@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Delights</title>
+    <link rel="stylesheet" href="styles.css">
+    <a href="about.html">member</a>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Delicious Delights</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Culinary Excellence</h2>
+            <p>Discover a world of delicious flavors and exquisite dishes</p>
+            <a href="#menu" class="btn">View Our Menu</a>
+        </div>
+    </section>
+
+    <section id="featured" class="featured">
+        <div class="container">
+            <h2>Featured Dishes</h2>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="Chicken Caesar Pasta Salad.jpeg" alt="Mediterranean Salad">
+                    </div>
+                    <h3>Mediterranean Salad</h3>
+                    <p>Fresh vegetables with olive oil and feta cheese</p>
+                    <span class="price">25 SAR</span>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="Baked Salmon Belly.jpeg" alt="Grilled Salmon">
+                    </div>
+                    <h3>Grilled Salmon</h3>
+                    <p>Premium salmon with lemon herb sauce</p>
+                    <span class="price">45 SAR</span>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="🍰🍫 Chocolate Lava Cake_ Molten Bliss in Every Bite!.jpeg" alt="Chocolate Dessert">
+                    </div>
+                    <h3>Chocolate Paradise</h3>
+                    <p>Rich chocolate cake with vanilla ice cream</p>
+                    <span class="price">20 SAR</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="appetizers">Appetizers</button>
+                <button class="category-btn" data-category="main">Main Courses</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+                <button class="category-btn" data-category="drinks">Drinks</button>
+            </div>
+            <div class="menu-items">
+                <!-- Menu items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p>jeddah<br></p>
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 11am - 10pm<br>
+                    Saturday - Sunday: 10am - 11pm</p>
+                    <h3>Contact</h3>
+                    <p>Phone: (555) 123-4567<br>
+                    Email: info@deliciousdelights.com</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
