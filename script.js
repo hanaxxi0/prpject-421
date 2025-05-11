@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "Espresso",
             category: "drinks",
             price: "12 SAR",
-            description: "Selection of local craft beers"
+            description: ""
         },
         {
             name: "Cola",
